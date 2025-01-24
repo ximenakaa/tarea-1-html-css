@@ -1,0 +1,51 @@
+body {
+background-color:#D552A7;
+color :black
+}
+h1 {
+    font-family: Georgia, serif; /* Diferente de lo definido en body */
+    font-size: 3rem;
+    color: #870a60;
+    text-align: center; /* Centrado */
+    
+  }
+  .container {
+    display: flex; /* Activa el diseño en fila */
+    align-items:center; /* Estira los hijos a la misma altura */
+  }
+  
+  .box img {
+    max-width:100%; /* Escalar bien en diferentes tamaños */
+    border-radius: 50%; /* Para hacerlo redondo si deseas */
+}
+.botones {
+    text-align: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Espaciado entre las cajas y los botones */
+  }
+  
+  .botones button {
+    padding: 10px 20px; /* Tamaño del botón */
+    margin: 5px; /* Espaciado entre botones */
+    font-size: 1rem;
+    background-color: #becfe1; /* Azul para el botón */
+    color: #f5089e; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+  }
+  
+  .botones button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }
+  
+    .container {
+        display: flex;
+        column-gap: 10px; /* Espacio entre columnas */
+        padding: 20px 10px; /* Aumenta el espacio dentro del contenedor */
+        margin: 50px auto; /* Centra horizontalmente */
+        max-width: 50%; /* Limita el ancho máximo */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      
